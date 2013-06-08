@@ -26,6 +26,7 @@ end
 gem 'jquery-rails'
 
 group :test do
+	gem 'pg', '0.12.2'
   gem 'capybara', '1.1.2'
 end
 
